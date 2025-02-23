@@ -4,5 +4,4 @@ curl -X POST "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" \
 -F "chat_id=$CHAT_ID" \
 -F "document=@$FILE_PATH" \
 -f "filename=U+1F4E6$FILE_NAME"\
--F "caption=➖➖➖➖Sponsor➖➖➖➖
-وان سرور"
+-F "caption=وان سرور"
